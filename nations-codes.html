@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nations Codes</title>
+    <style media="screen">
+      .type {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .type-alternate {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+      }
+      .button {
+        height: 70%;
+        width: 90%;
+        font-size: 6.6vw;
+        font-weight: bold;
+        background-color: #009E60;
+        color: #ffffff;
+        border: none;
+        border-radius: 1.0vw;
+      }
+      .list {
+        width: 100vw;
+        display: none;
+      }
+      .list-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        width: 100vw;
+        font-size: 5.5vw;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Leafy Greens -->
+    <div class="type" id="leafy-greens-button">
+      <button type="button" name="button" class="button" onclick="leafyGreens()">Leafy Greens</button>
+    </div>
+    <div class="type-alternate" id="leafy-greens-alternate-button">
+      <button type="button" name="button" class="button" onclick="leafyGreensClose()">Leafy Greens</button>
+    </div>
+    <div class="list" id="leafy-greens">
+      <div class="list-item">
+        <p>Green Leaf Lettuce -- 2046</p>
+      </div>
+      <div class="list-item">
+        <p>Red Leaf Lettuce -- 2729</p>
+      </div>
+      <div class="list-item">
+        <p>Romain Lettuce -- 2045</p>
+      </div>
+      <div class="list-item">
+        <p>AA Choy -- 2053</p>
+      </div>
+      <div class="list-item">
+        <p>Taiwan Bok Choy -- 2148</p>
+      </div>
+      <div class="list-item">
+        <p>Yu Choy -- 2203 </p>
+      </div>
+      <div class="list-item">
+        <p>Green Ton Choy -- 2203</p>
+      </div>
+      <div class="list-item">
+        <p>White Ton Choy -- 2048</p>
+      </div>
+      <div class="list-item">
+        <p>Baby Mustard -- 2006</p>
+      </div>
+      <div class="list-item">
+        <p>Big Mustard -- 2005</p>
+      </div>
+      <div class="list-item">
+        <p>Snow Peas Sprout -- 2219</p>
+      </div>
+      <div class="list-item">
+        <p>Shanghai Choy Sum -- 2040</p>
+      </div>
+      <div class="list-item">
+        <p>Bok Choy Sum -- 2072</p>
+      </div>
+      <div class="list-item">
+        <p>Chinese Broccoli -- 2204</p>
+      </div>
+      <div class="list-item">
+        <p>Big Bai Choy -- 2042</p>
+      </div>
+      <div class="list-item">
+        <p>Shanghai Bok Choy -- 2201</p>
+      </div>
+      <div class="list-item">
+        <p>Nai Yu Bok Choy Miu -- 2202</p>
+      </div>
+      <div class="list-item">
+        <p>Yu Choy Tip -- 2154</p>
+      </div>
+      <div class="list-item">
+        <p>Gailan Tips -- 2071</p>
+      </div>
+      <div class="list-item">
+        <p>Ton Ho Choy (Small Leaf) -- 2070</p>
+      </div>
+      <div class="list-item">
+        <p>Ton Ho Choy (Large Leaf) -- 2068</p>
+      </div>
+      <div class="list-item">
+        <p>Taro Leaves -- 2734</p>
+      </div>
+      <div class="list-item">
+        <p>Malabar Spinach -- 2052</p>
+      </div>
+      <div class="list-item">
+        <p>Shanghai Choy Mue -- 2069</p>
+      </div>
+      <div class="list-item">
+        <p>Nai Bok Choy -- 2041</p>
+      </div>
+      <div class="list-item">
+        <p>Amaranth (Red Stripe) -- 2050</p>
+      </div>
+      <div class="list-item">
+        <p>Callaloo -- 2113</p>
+      </div>
+
+
+
+    </div>
+    <!-- Yams -->
+    <div class="type" id="yams-button">
+      <button type="button" name="button" class="button" onclick="yams()">Yams</button>
+    </div>
+    <div class="type-alternate" id="yams-alternate-button">
+      <button type="button" name="button" class="button" onclick="yamsClose()">Yams</button>
+    </div>
+    <div class="list" id="yams">
+      <div class="list-item">
+        <p>Yellow Yam -- 2168</p>
+      </div>
+      <div class="list-item">
+        <p>White Yam -- 2167</p>
+      </div>
+      <div class="list-item">
+        <p>Oriental Yam in Bag -- 2269</p>
+      </div>
+      <div class="list-item">
+        <p>Sweet Yam -- 2009</p>
+      </div>
+      <div class="list-item">
+        <p>Jamaica Sweet Yam (Marked) -- 2754</p>
+      </div>
+      <div class="list-item">
+        <p>Purple Skin Yam -- 2770</p>
+      </div>
+      <div class="list-item">
+        <p>Purple Meat Yam -- 2768</p>
+      </div>
+      <div class="list-item">
+        <p>Red Skin Purple Meat Yam -- 2153</p>
+      </div>
+      <div class="list-item">
+        <p>Fresh Casava -- 2015</p>
+      </div>
+      <div class="list-item">
+        <p>Taro -- 2013</p>
+      </div>
+      <div class="list-item">
+        <p>Eddo in Bag -- 2014</p>
+      </div>
+      <div class="list-item">
+        <p>Dashee (X Marked) -- 22013</p>
+      </div>
+      <div class="list-item">
+        <p>Coco Yam -- 2739</p>
+      </div>
+      <div class="list-item">
+        <p>White Skin Purple Meat Yam -- 2768</p>
+      </div>
+      <div class="list-item">
+        <p>Red Yam -- 2010</p>
+      </div>
+      <div class="list-item">
+        <p>Jicama -- 2011</p>
+      </div>
+      <div class="list-item">
+        <p>Arrow Roots -- 2012</p>
+      </div>
+      <div class="list-item">
+        <p>Cassava -- 2015</p>
+      </div>
+      <div class="list-item">
+        <p>Small Sweet Potatoes -- 2269</p>
+      </div>
+    </div>
+    <!-- Grapes -->
+    <div class="type" id="grapes-button">
+      <button type="button" name="button" class="button" onclick="grapes()">Grapes</button>
+    </div>
+    <div class="type-alternate" id="grapes-alternate-button">
+      <button type="button" name="button" class="button" onclick="grapesClose()">Grapes</button>
+    </div>
+    <div class="list" id="grapes">
+      <div class="list-item">
+        <p>Sunview Seedless Green Grapes -- 9126</p>
+      </div>
+      <div class="list-item">
+        <p>Cotton Candy Grapes -- 9549</p>
+      </div>
+      <div class="list-item">
+        <p>Muscato Grapes (Loose) -- 9149</p>
+      </div>
+      <div class="list-item">
+        <p>Seedless Red Grapes -- 9210</p>
+      </div>
+      <div class="list-item">
+        <p>Seedless Green Grapes -- 9209</p>
+      </div>
+      <div class="list-item">
+        <p>Big Red Grapes -- 9208</p>
+      </div>
+      <div class="list-item">
+        <p>Seedless Black Grapes -- 9416</p>
+      </div>
+    </div>
+    <!-- Peaches and Plums -->
+    <div class="type" id="peaches-plums-prunes-button">
+      <button type="button" name="button" class="button" onclick="peachesPlumsPrunes()">Peaches, Plums, Prunes</button>
+    </div>
+    <div class="type-alternate" id="peaches-plums-prunes-alternate-button">
+      <button type="button" name="button" class="button" onclick="peachesPlumsPrunesClose()">Peaches, Plums, Prunes</button>
+    </div>
+    <div class="list" id="peaches-plums-prunes">
+      <div class="list-item">
+        <p>Red Pomegranate -- 9449</p>
+      </div>
+      <div class="list-item">
+        <p>Saucer Peach -- 9059</p>
+      </div>
+      <div class="list-item">
+        <p>White Peach -- 9032</p>
+      </div>
+      <div class="list-item">
+        <p>Yellow Peach -- 9033</p>
+      </div>
+      <div class="list-item">
+        <p>Yellow Nectarine -- 9211</p>
+      </div>
+      <div class="list-item">
+        <p>White Nectarine -- 9031</p>
+      </div>
+      <div class="list-item">
+        <p>Golden Peach -- 9068</p>
+      </div>
+      <div class="list-item">
+        <p>Ontario Yellow Peach -- 9445</p>
+      </div>
+      <div class="list-item">
+        <p>Fire Plum -- 9058</p>
+      </div>
+      <div class="list-item">
+        <p>Sweet Plum -- 9427</p>
+      </div>
+      <div class="list-item">
+        <p>Green Plum -- 9508</p>
+      </div>
+      <div class="list-item">
+        <p>Black Plum -- 9035</p>
+      </div>
+      <div class="list-item">
+        <p>Red Plum -- 9034</p>
+      </div>
+      <div class="list-item">
+        <p>Apricot -- 9374</p>
+      </div>
+      <div class="list-item">
+        <p>Yellow Plum -- 9415</p>
+      </div>
+      <div class="list-item">
+        <p>Prunes -- 9046</p>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function leafyGreens() {
+      document.getElementById('leafy-greens').style.display = 'block';
+      document.getElementById('leafy-greens-button').style.display = 'none';
+      document.getElementById('leafy-greens-alternate-button').style.display = 'flex';
+    }
+    function leafyGreensClose() {
+      document.getElementById('leafy-greens').style.display = 'none';
+      document.getElementById('leafy-greens-alternate-button').style.display = 'none';
+      document.getElementById('leafy-greens-button').style.display = 'flex';
+    }
+    function yams() {
+      document.getElementById('yams').style.display = 'block';
+      document.getElementById('yams-button').style.display = 'none';
+      document.getElementById('yams-alternate-button').style.display = 'flex';
+    }
+    function yamsClose() {
+      document.getElementById('yams').style.display = 'none';
+      document.getElementById('yams-alternate-button').style.display = 'none';
+      document.getElementById('yams-button').style.display = 'flex';
+    }
+    function grapes() {
+      document.getElementById('grapes').style.display = 'block';
+      document.getElementById('grapes-button').style.display = 'none';
+      document.getElementById('grapes-alternate-button').style.display = 'flex';
+    }
+    function grapesClose() {
+      document.getElementById('grapes').style.display = 'none';
+      document.getElementById('grapes-alternate-button').style.display = 'none';
+      document.getElementById('grapes-button').style.display = 'flex';
+    }
+    function peachesPlumsPrunes() {
+      document.getElementById('peaches-plums-prunes').style.display = 'block';
+      document.getElementById('peaches-plums-prunes-button').style.display = 'none';
+      document.getElementById('peaches-plums-prunes-alternate-button').style.display = 'flex';
+    }
+    function peachesPlumsPrunesClose() {
+      document.getElementById('peaches-plums-prunes').style.display = 'none';
+      document.getElementById('peaches-plums-prunes-alternate-button').style.display = 'none';
+      document.getElementById('peaches-plums-prunes-button').style.display = 'flex';
+    }
+  </script>
+</html>
